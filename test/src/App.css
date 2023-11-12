@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 3vw;
+  padding: 2vw;
+  font-family: sans-serif;
+}
+
+.img {
+  position: relative;
+  width: 29vw;
+  height: 29vw;
+  border-radius: 1em;
+  box-shadow: #fff 0 0 0 0;
+  background-size: contain;
+  box-shadow: #111 0 0 2em -1em;
+}
+
+.img:hover {
+  box-shadow: #111 0 0 2em -0.5em;
+}
