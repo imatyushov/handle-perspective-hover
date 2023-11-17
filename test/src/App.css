@@ -20,9 +20,10 @@ body {
   border-radius: 1em;
   box-shadow: #fff 0 0 0 0;
   background-size: contain;
-  box-shadow: #111 0 0 2em -1em;
+  box-shadow: #07af10 0 0 2em -1em;
 }
 
 .img:hover {
-  box-shadow: #111 0 0 2em -0.5em;
+  box-shadow: #000000 0 0 2em -0.5em;
+  cursor: pointer;
 }
